@@ -6,7 +6,7 @@ install:
   - pip install --user awscli
   - pip install --user aws-sam-cli
 script:
-  - composer install --optimize-autoloader --no-dev
+  - composer install --optimize-autoloader
   - composer test
   - composer package
 deploy:
