@@ -1,5 +1,5 @@
 # Bref and Travis CI Integration Example
-[![Travis](https://img.shields.io/travis/guillermoandrae/bref-hello-world.svg?style=flat-square)](https://travis-ci.org/guillermoandrae/bref-hello-world) ![GitHub](https://img.shields.io/github/license/guillermoandrae/bref-hello-world.svg?style=flat-square)
+[![Travis](https://img.shields.io/travis/guillermoandrae/bref-hello-world.svg?style=flat-square)](https://travis-ci.org/guillermoandrae/bref-hello-world) ![GitHub](https://img.shields.io/github/license/guillermoandrae/bref-hello-world.svg?style=flat-square) [![@guillermoandrae on Twitter](http://img.shields.io/badge/twitter-%40guillermoandrae-green.svg?style=flat)](https://twitter.com/guillermoandrae)
 
 > Bref provides the tools and documentation to easily deploy and run serverless PHP applications.
 
