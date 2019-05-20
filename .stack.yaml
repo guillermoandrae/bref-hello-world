@@ -1,9 +1,9 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Description: 'Bref and Travis CI integration example'
+Description: ''
 Resources:
   MyFunction:
     Properties:
-      CodeUri: s3://bref-hello-world/bd21192c305b03cacc6ee1b9318b812e
+      CodeUri: s3://bref-hello-world/17acd6e78eeeed839000739c4030bb6e
       Description: ''
       FunctionName: bref-hello-world
       Handler: index.php
