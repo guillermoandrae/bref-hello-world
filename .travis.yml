@@ -1,14 +1,14 @@
 language: generic
 dist: xenial
 before_install:
-- phpenv global 7.2.15
+  - phpenv global 7.2
 install:
 - pip install --user awscli
 - pip install --user aws-sam-cli
 script:
-- composer install --optimize-autoloader
-- composer test
-- composer package
+  - composer install --optimize-autoloader
+  - composer test
+  - composer package
 deploy:
   provider: script
   script: composer deploy
