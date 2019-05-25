@@ -3,8 +3,8 @@ dist: xenial
 before_install:
   - phpenv global 7.2
 install:
-- pip install --user awscli
-- pip install --user aws-sam-cli
+  - pip install --user awscli
+  - pip install --user aws-sam-cli
 script:
   - composer install --optimize-autoloader
   - composer test
